@@ -5,3 +5,6 @@ Kickstarter is an American public-benefit corporation[2] based in Brooklyn, New 
 People who back Kickstarter projects are offered tangible rewards or experiences in exchange for their pledges. This model traces its roots to subscription model of arts patronage, where artists would go directly to their audiences to fund their work.
 
 I found this dataset on kaggle and when I went through the data, I thought of making a prediction model which classifies the data by, if a project is successful or not. The dataset needed a lot of cleaning to be done. I have shown my approach to this project step by step below.
+
+### Exploratory Data Analysis (EDA)
+
