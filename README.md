@@ -48,18 +48,35 @@ I used Tableau to visualize and understand this dataset. I will then use this in
 - All years have almost equal distribution and therefore believe that this variable would not affect the data.
 - To confirm this, I applied Chi Squared test on the variables and the test was favourable.
 
-**6. Gap of Year**
+**7. Gap of Year**
 
 ![](Images/7.0.png)
 
 - I created a new variable which is the difference between the deadline year and the launch year. This variable too proves that it does not have any affect on the final output.
 
-**6. Main Category**
+**8. Main Category**
 
 ![](Images/8.0.png)
 
 - Dance, Theatre and Comics had a higher success to failure ratio than the other genres.
 - Technology, Crafts, Journalism had a higher failure rate
+
+**9. Backers**
+
+![](Images/9.png)
+
+-Normalizing will be needed
+
+**10. Pledged,goal**
+
+![](Images/10.png)
+![](Images/11.png)
+
+**11. Outliers**
+
+![](Images/12.png)
+
+- The outliers should be treated seperately. They can be imputed using th emean, mode, median or using an iterative approach if the decision is too complicated.
 
 
 
