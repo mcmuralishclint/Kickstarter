@@ -15,3 +15,19 @@ I used Tableau to visualize and understand this dataset. I will then use this in
 ![](Images/1.png)
 
 - The image shows that a project is 2 times more likely to fail than to succeed.
+
+**2. Pledged, Goal**
+
+![](Images/2.0.png)
+
+- More users who have pledged more have succeeded and more users who've had higher goals have failed.
+
+**3. Country**
+
+![](Images/3.0.png)
+
+- People from 'No' or Norway have a higher success to failure ratio than the other countries. To reduce the variables in countries, we can merge certain countries with less number of occurences togeather.
+
+
+
+
