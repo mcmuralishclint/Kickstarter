@@ -11,4 +11,4 @@ I found this dataset on kaggle and when I went through the data, I thought of ma
 I used Tableau to visualize and understand this dataset. I will then use this insight to add or remove features for predicting the outcome.
 
 1.
-![]('/images/1.png')
+![](images/1.png)
