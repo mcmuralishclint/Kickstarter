@@ -28,6 +28,40 @@ I used Tableau to visualize and understand this dataset. I will then use this in
 
 - People from 'No' or Norway have a higher success to failure ratio than the other countries. To reduce the variables in countries, we can merge certain countries with less number of occurences togeather.
 
+**4. Currency**
+
+![](Images/4.0.png)
+
+- Since US has the highest number of users, USD is the most used currency. To gerneralize the other variables, goal and pledged of other currencies can be converted to USD.
+
+**5. Month**
+
+![](Images/5.0.png)
+
+- All months have almost equal distribution and therefore believe that this variable would not affect the data.
+- To confirm this, I applied Chi Squared test on the variables and the test was favourable.
+
+**6. Launched Year**
+
+![](Images/6.0.png)
+
+- All years have almost equal distribution and therefore believe that this variable would not affect the data.
+- To confirm this, I applied Chi Squared test on the variables and the test was favourable.
+
+**6. Gap of Year**
+
+![](Images/7.0.png)
+
+- I created a new variable which is the difference between the deadline year and the launch year. This variable too proves that it does not have any affect on the final output.
+
+**6. Main Category**
+
+![](Images/8.0.png)
+
+- Dance, Theatre and Comics had a higher success to failure ratio than the other genres.
+- Technology, Crafts, Journalism had a higher failure rate
+
+
 
 
 
