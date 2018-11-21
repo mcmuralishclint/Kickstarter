@@ -6,73 +6,73 @@ People who back Kickstarter projects are offered tangible rewards or experiences
 
 I found this dataset on kaggle and when I went through the data, I thought of making a prediction model which classifies the data by, if a project is successful or not. The dataset needed a lot of cleaning to be done. I have shown my approach to this project step by step below.
 
-### Exploratory Data Analysis (EDA)
+## 1.Exploratory Data Analysis (EDA)
 
 I used Tableau to visualize and understand this dataset. I will then use this insight to add or remove features for predicting the outcome.
 
-**1. Percentage of success**
+**1.1 Percentage of success**
 
 ![](Images/1.png)
 
 - The image shows that a project is 2 times more likely to fail than to succeed.
 
-**2. Pledged, Goal**
+**1.2. Pledged, Goal**
 
 ![](Images/2.0.png)
 
 - More users who have pledged more have succeeded and more users who've had higher goals have failed.
 
-**3. Country**
+**1.3. Country**
 
 ![](Images/3.0.png)
 
 - People from 'No' or Norway have a higher success to failure ratio than the other countries. To reduce the variables in countries, we can merge certain countries with less number of occurences togeather.
 
-**4. Currency**
+**1.4. Currency**
 
 ![](Images/4.0.png)
 
 - Since US has the highest number of users, USD is the most used currency. To gerneralize the other variables, goal and pledged of other currencies can be converted to USD.
 
-**5. Month**
+**1.5. Month**
 
 ![](Images/5.0.png)
 
 - All months have almost equal distribution and therefore believe that this variable would not affect the data.
 - To confirm this, I applied Chi Squared test on the variables and the test was favourable.
 
-**6. Launched Year**
+**1.6. Launched Year**
 
 ![](Images/6.0.png)
 
 - All years have almost equal distribution and therefore believe that this variable would not affect the data.
 - To confirm this, I applied Chi Squared test on the variables and the test was favourable.
 
-**7. Gap of Year**
+**1.7. Gap of Year**
 
 ![](Images/7.0.png)
 
 - I created a new variable which is the difference between the deadline year and the launch year. This variable too proves that it does not have any affect on the final output.
 
-**8. Main Category**
+**1.8. Main Category**
 
 ![](Images/8.0.png)
 
 - Dance, Theatre and Comics had a higher success to failure ratio than the other genres.
 - Technology, Crafts, Journalism had a higher failure rate
 
-**9. Backers**
+**1.9. Backers**
 
 ![](Images/9.png)
 
 -Normalizing will be needed
 
-**10. Pledged,goal**
+**1.10. Pledged,goal**
 
 ![](Images/10.png)
 ![](Images/11.png)
 
-**11. Outliers**
+**1.11. Outliers**
 
 ![](Images/12.png)
 
