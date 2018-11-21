@@ -13,4 +13,5 @@ I used Tableau to visualize and understand this dataset. I will then use this in
 **1. Percentage of success**
 
 ![](Images/1.png)
-ft
+
+- The image shows that a project is 2 times more likely to fail than to succeed.
