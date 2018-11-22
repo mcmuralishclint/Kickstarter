@@ -8,6 +8,8 @@ I found this dataset on kaggle and when I went through the data I found out that
 
 The goal is to undersstand the difference values in categorical variables, the distribution of numerical variables, Patterns and some insights from the dataset.
 
+The dataset can be found at the following link : https://www.kaggle.com/kemical/kickstarter-projects
+
 ## 1.Exploratory Data Analysis (EDA)
 
 I used Tableau to visualize and understand this dataset. I will then use this insight to add or remove features for predicting the outcome.
