@@ -6,6 +6,8 @@ People who back Kickstarter projects are offered tangible rewards or experiences
 
 I found this dataset on kaggle and when I went through the data I found out that the dataset needed a lot of cleaning to be done. I have shown my approach to this project step by step below.
 
+The goal is to undersstand the difference values in categorical variables, the distribution of numerical variables, Patterns and some insights from the dataset.
+
 ## 1.Exploratory Data Analysis (EDA)
 
 I used Tableau to visualize and understand this dataset. I will then use this insight to add or remove features for predicting the outcome.
